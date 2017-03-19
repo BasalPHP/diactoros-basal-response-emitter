@@ -1,0 +1,22 @@
+{
+    "name": "basal/diactoros-basal-response-emitter",
+    "description": "Diactoros response emitter implementation for Basal",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Basal",
+            "email": "basal.php@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Basal\\ResponseEmitter\\Diactoros\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5",
+        "zendframework/zend-diactoros": "^1.3",
+        "basal/basal": "dev-master"
+    }
+}
