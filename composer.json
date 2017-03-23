@@ -1,7 +1,7 @@
 {
     "name": "basal/diactoros-basal-response-emitter",
     "description": "Diactoros response emitter implementation for Basal",
-    "type": "package",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
